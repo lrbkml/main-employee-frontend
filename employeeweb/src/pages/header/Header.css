@@ -1,0 +1,37 @@
+/* Header Styling */
+.navbar {
+    background: linear-gradient(135deg, #007aff, #05264c);
+    padding: 10px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+    margin-top: 30px; /* Added margin from top */
+  }
+  
+  .navbar-brand {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: #b3e5fc;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 25px;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffdd57;
+    transform: translateY(-2px);
+  }
+  
+  .ml-auto {
+    margin-left: auto !important;
+  }
+  

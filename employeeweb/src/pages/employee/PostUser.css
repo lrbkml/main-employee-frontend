@@ -1,0 +1,62 @@
+/* Styles for the PostUser form */
+.center-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto; /* Centers the form vertically and horizontally */
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.center-form h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #343a40; /* Dark text color */
+}
+
+.center-form .form-group {
+    margin-bottom: 20px;
+}
+
+.center-form .form-control {
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.center-form .form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.3); /* Slight glow effect */
+}
+
+.center-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 100%; /* Full-width button */
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.center-form .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+@media (max-width: 576px) {
+    .center-form {
+        width: 90%;
+        margin: 30px auto;
+        padding: 15px;
+    }
+
+    .center-form h1 {
+        font-size: 1.5rem;
+    }
+}
